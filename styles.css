@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100&display=swap"); /* styles.css */
+
+/* Basic styling */
+body {
+  font-family: "Gabarito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d9243f;
+  color: #1f1e1e;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Styling for the Projects section */
+.project {
+  margin: 20px 0;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+.hero-pic img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+.container .hero-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 15px solid rgb(52, 51, 51);
+  box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+}
